@@ -5,8 +5,8 @@ public class Main {
 
 
         System.out.println("--- Cenário A: Cadastro e Empréstimo Simples ---");
-        Leitor leitorComum = new Leitor("Pedro", 14, "COMUM"); // Juvenil
-        Leitor leitorPremium = new Leitor("Ana", 30, "PREMIUM"); // Adulto
+        Leitor leitorComum = new Leitor("Pedro", 14, "COMUM"); 
+        Leitor leitorPremium = new Leitor("Ana", 30, "PREMIUM");
 
         String itemJuvenil = "Harry Potter (Livro)";
         String itemAdulto = "Direito Civil (Livro)";
