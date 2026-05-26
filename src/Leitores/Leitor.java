@@ -10,11 +10,8 @@ public abstract class Leitor {
         }
         public abstract int getLimiteEmprestimos();
         public boolean podeEmprestar(int emprestimosAtivos) {
-
-            return emprestimosAtivos < getLimiteEmprestimos()
-                    && multaPendente <= 0;
+            return emprestimosAtivos < getLimiteEmprestimos() && multaPendente <= 0;
         }
-
 
         public boolean possuiMulta() {
             return multaPendente > 0;
