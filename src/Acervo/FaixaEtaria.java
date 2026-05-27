@@ -3,7 +3,8 @@ package Acervo;
 public enum FaixaEtaria {
     INFANTIL(0, 11 ),
     JUVENIL(12, 17),
-    ADULTO(18, Integer.MAX_VALUE);
+    ADULTO(18, Integer.MAX_VALUE),
+    LIVRE (0, Integer.MAX_VALUE);
 
     private final int idadeMinima;
     private final int idadeMaxima;

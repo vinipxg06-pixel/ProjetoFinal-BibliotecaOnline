@@ -7,7 +7,7 @@ public class LeitorPremium extends Leitor {
     }
 
     @Override
-    public int getLimiteEmprestimos() {
+    public int getLimiteEmprestimo() {
         return 7;
     }
 

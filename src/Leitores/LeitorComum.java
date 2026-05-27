@@ -7,7 +7,12 @@ public class LeitorComum extends Leitor {
     }
 
     @Override
-    public int getLimiteEmprestimos() {
+    public int getLimiteEmprestimo() {
         return 3;
+    }
+
+    @Override
+    public int aumentarPrazo(int prazoOriginal) {
+        return 0;
     }
 }
